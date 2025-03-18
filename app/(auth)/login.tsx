@@ -19,7 +19,7 @@ const login = () => {
         strategy: "oauth_google",
       });
   
-      console.log("Response:", response);
+      // console.log("Response:", response);
   
       const { createdSessionId, setActive } = response;
   
